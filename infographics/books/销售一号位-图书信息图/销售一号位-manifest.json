@@ -1,0 +1,173 @@
+{
+  "book_title": "销售一号位",
+  "source_epub": "/Users/jessper/Downloads/销售一号位.epub",
+  "chapter_model": "original-toc",
+  "page_unit": "chapter; original first-level sections are page parts",
+  "language_policy": "zh only",
+  "chapters": [
+    {
+      "structure_id": "frontmatter",
+      "original_locator": "序言 / 推荐语、自序、前言",
+      "title": "序言导读",
+      "parent_part": "序言",
+      "source_sections": [
+        "推荐语",
+        "自序",
+        "前言"
+      ],
+      "zh_file": "销售一号位-序言导读-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-01-mission",
+      "original_locator": "第一部分",
+      "title": "销售一号位的使命",
+      "parent_part": "第一部分 · 销售一号位的使命",
+      "source_sections": [
+        "销售一号位的定义及位置",
+        "明确使命　服务客户需求，助力业务发展",
+        "三种权力　决定权、建议权、知悉权",
+        "五大核心能力　谋后而定，行则坚毅",
+        "四个关系　对上、对下、左右关系和自我"
+      ],
+      "zh_file": "销售一号位-第一部分-销售一号位的使命-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-02-chapter-01",
+      "original_locator": "第二部分 / 第一章",
+      "title": "第一章 纵观全局",
+      "parent_part": "第二部分 · 核心能力",
+      "source_sections": [
+        "供需关系　需求真假与大小是商业的前置条件",
+        "竞争关系　BML模型——找到关键竞争要素",
+        "内部情况　用UE模型找出自身关键问题"
+      ],
+      "zh_file": "销售一号位-第二部分-第一章-纵观全局-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-02-chapter-02",
+      "original_locator": "第二部分 / 第二章",
+      "title": "第二章 谋后而定",
+      "parent_part": "第二部分 · 核心能力",
+      "source_sections": [
+        "定策略　深入一线是基本手段",
+        "定目标：用五维度对比法科学制定目标"
+      ],
+      "zh_file": "销售一号位-第二部分-第二章-谋后而定-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-02-chapter-03",
+      "original_locator": "第二部分 / 第三章",
+      "title": "第三章 上下左右",
+      "parent_part": "第二部分 · 核心能力",
+      "source_sections": [
+        "齐上　转变心态、对齐目标、获得支持",
+        "理下　选人才、打胜仗、懂激励",
+        "惠左右　用共赢思维获得中长期支持",
+        "与左右相处之道：提需求，不提解决方案"
+      ],
+      "zh_file": "销售一号位-第二部分-第三章-上下左右-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-02-chapter-04",
+      "original_locator": "第二部分 / 第四章",
+      "title": "第四章 排兵布阵",
+      "parent_part": "第二部分 · 核心能力",
+      "source_sections": [
+        "人　让今天的最高水平成为明天的平均水平",
+        "事　抓住主要矛盾，建立SOP提升效率",
+        "器　摒弃人海战术，科学打造工具"
+      ],
+      "zh_file": "销售一号位-第二部分-第四章-排兵布阵-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-03-chapter-05",
+      "original_locator": "第三部分 / 第五章",
+      "title": "第五章 工作理念",
+      "parent_part": "第三部分 · 成长路径",
+      "source_sections": [
+        "“从帮助他人中感受快乐”是能否成为管理者的原始条件",
+        "不同销售领导梯队工作技能侧重点不同",
+        "时间花在哪儿，就会得到什么"
+      ],
+      "zh_file": "销售一号位-第三部分-第五章-工作理念-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-03-chapter-06",
+      "original_locator": "第三部分 / 第六章",
+      "title": "第六章 有效方法",
+      "parent_part": "第三部分 · 成长路径",
+      "source_sections": [
+        "成长三宝　和“高人”聊，看合适的书，在“事”上练",
+        "K 三层 BBS——离失败越远，离成功越近",
+        "K 三环　喜欢的、擅长的、社会需要的"
+      ],
+      "zh_file": "销售一号位-第三部分-第六章-有效方法-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-03-chapter-07",
+      "original_locator": "第三部分 / 第七章",
+      "title": "第七章 淬炼心志",
+      "parent_part": "第三部分 · 成长路径",
+      "source_sections": [
+        "脑力、体力、心力",
+        "有韧性，穿越低谷期"
+      ],
+      "zh_file": "销售一号位-第三部分-第七章-淬炼心志-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "part-04-misconceptions",
+      "original_locator": "第四部分",
+      "title": "销售一号位的十大误区",
+      "parent_part": "第四部分 · 销售一号位的十大误区",
+      "source_sections": [
+        "不能充分、正确地理解公司和业务情况",
+        "经常抱怨资源不到位，不能与其他部门有效协作",
+        "不重视先进“武器”的使用",
+        "不重视销售中台建设",
+        "喜欢把自己的团队搞得很大",
+        "对培训的重视程度不够",
+        "家族式管理，近亲繁殖",
+        "不能文武双全",
+        "把自己降级使用",
+        "把情商当作提升重点"
+      ],
+      "zh_file": "销售一号位-第四部分-销售一号位的十大误区-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    },
+    {
+      "structure_id": "appendix",
+      "original_locator": "附录",
+      "title": "老K分享实录",
+      "parent_part": "附录 · 老K分享实录",
+      "source_sections": [
+        "销售管理的中观策略",
+        "销售管理感悟"
+      ],
+      "zh_file": "销售一号位-附录-老K分享实录-info-zh.html",
+      "en_file": null,
+      "validate": "pending"
+    }
+  ],
+  "skipped_items": [
+    "封面、版权页、目录、致谢（非章节性内容）"
+  ]
+}
