@@ -9,149 +9,297 @@
       font-family: FZZXZS;
       src: url("book-learning/方正屏显臻宋.TTF");
     }
+
+    :root {
+      --paper: #f5f1ea;
+      --ink: #202a33;
+      --muted: #6f7e84;
+      --rule: #d9dfe0;
+      --accent: #ac5035;
+      --blue: #477b90;
+    }
+
     * { box-sizing: border-box; }
+
+    html { background: var(--paper); }
+
     body {
       margin: 0;
-      background: #f5f1ea;
-      color: #1f2a30;
+      background: var(--paper);
+      color: var(--ink);
       font-family: FZZXZS, "PingFang SC", "Songti SC", serif;
-      line-height: 1.65;
+      line-height: 1.55;
     }
-    main {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 42px 22px 58px;
-    }
-    header {
-      border-top: 5px solid #9f4730;
-      padding: 30px 0 24px;
-    }
-    h1 {
-      margin: 0;
-      font-size: clamp(30px, 5vw, 54px);
-      font-weight: 400;
-      line-height: 1.15;
-    }
-    .lead {
-      max-width: 780px;
-      margin: 14px 0 0;
-      color: #586970;
-      font-size: 18px;
-    }
-    .quick {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-      margin: 26px 0 36px;
-    }
+
     a {
       color: inherit;
       text-decoration: none;
     }
-    .tile,
-    .book {
-      background: #fffefa;
-      border: 1px solid #d9d4c8;
-      border-radius: 8px;
-      box-shadow: 0 10px 24px rgba(40, 38, 32, 0.06);
+
+    main {
+      width: min(100% - 128px, 1720px);
+      margin: 0 auto;
+      padding: 48px 0 70px;
     }
-    .tile {
-      min-height: 128px;
-      padding: 18px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
     }
-    .tile strong,
-    .book h2 {
-      color: #315e72;
+
+    .book-entry {
+      display: grid;
+      grid-template-columns: minmax(300px, 400px) minmax(0, 1fr);
+      gap: clamp(52px, 8vw, 136px);
+      padding: 0 0 54px;
+    }
+
+    .book-entry + .book-entry {
+      border-top: 2px solid var(--rule);
+      padding-top: 48px;
+    }
+
+    .book-number {
+      margin: 0;
+      color: var(--accent);
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1;
+    }
+
+    .book-title {
+      margin: 24px 0 10px;
+      font-size: clamp(37px, 3vw, 53px);
+      font-weight: 400;
+      line-height: 1.22;
+    }
+
+    .book-author {
+      margin: 0;
+      color: var(--muted);
+      font-size: 22px;
+    }
+
+    .book-summary {
+      max-width: 370px;
+      margin: 30px 0 0;
+      padding-left: 20px;
+      border-left: 3px solid var(--blue);
+      color: #52636b;
+      font-size: 20px;
+      line-height: 1.75;
+    }
+
+    .book-resources {
+      border-top: 2px solid var(--rule);
+    }
+
+    .resource-group + .resource-group {
+      margin-top: 21px;
+    }
+
+    .resource-label {
+      margin: 22px 0 12px;
+      color: var(--muted);
+      font-size: 19px;
       font-weight: 400;
     }
-    .tile span {
-      color: #6a5e4b;
-      font-size: 14px;
-    }
-    .grid {
+
+    .resource-link {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px;
+      grid-template-columns: minmax(208px, 0.28fr) minmax(0, 1fr) 34px;
+      gap: 28px;
+      align-items: start;
+      padding: 0 6px 21px;
+      border-bottom: 2px solid var(--rule);
+      transition: background-color 160ms ease;
     }
-    .book {
-      padding: 22px;
+
+    .resource-link + .resource-link {
+      padding-top: 21px;
     }
-    .book h2 {
-      margin: 0 0 14px;
-      font-size: 25px;
+
+    .resource-link:hover {
+      background: rgba(255, 254, 250, 0.52);
     }
-    .links {
-      display: grid;
-      gap: 10px;
+
+    .resource-name {
+      color: var(--accent);
+      font-size: clamp(22px, 1.7vw, 28px);
+      font-weight: 400;
+      line-height: 1.35;
     }
-    .links a {
-      display: block;
-      border-left: 4px solid #9f4730;
-      background: #f7f3ec;
-      padding: 10px 12px;
-      color: #26383f;
+
+    .resource-description {
+      margin: 0;
+      font-size: clamp(22px, 1.65vw, 28px);
+      line-height: 1.45;
     }
-    .meta {
-      margin-top: 34px;
-      color: #69757a;
-      font-size: 14px;
+
+    .resource-arrow {
+      color: var(--accent);
+      font-family: "PingFang SC", sans-serif;
+      font-size: 34px;
+      line-height: 1;
+      text-align: right;
+      transition: transform 160ms ease;
     }
-    @media (max-width: 760px) {
-      main { padding: 28px 16px 44px; }
-      .quick,
-      .grid { grid-template-columns: 1fr; }
-      .lead { font-size: 16px; }
+
+    .resource-link:hover .resource-arrow,
+    .resource-link:focus-visible .resource-arrow {
+      transform: translate(3px, -3px);
+    }
+
+    .resource-link:focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 980px) {
+      main { width: min(100% - 48px, 760px); }
+
+      .book-entry {
+        grid-template-columns: 1fr;
+        gap: 34px;
+      }
+
+      .book-summary { max-width: 640px; }
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: min(100% - 32px, 560px);
+        padding-top: 28px;
+      }
+
+      .book-entry { padding-bottom: 40px; }
+      .book-entry + .book-entry { padding-top: 40px; }
+      .book-number { font-size: 19px; }
+      .book-title { margin-top: 17px; }
+      .book-author { font-size: 19px; }
+      .book-summary {
+        margin-top: 22px;
+        padding-left: 16px;
+        font-size: 17px;
+      }
+
+      .resource-label {
+        margin: 18px 0 9px;
+        font-size: 16px;
+      }
+
+      .resource-link {
+        grid-template-columns: minmax(0, 1fr) 26px;
+        gap: 7px 14px;
+        padding: 0 0 18px;
+      }
+
+      .resource-link + .resource-link { padding-top: 18px; }
+      .resource-name { font-size: 22px; }
+      .resource-description {
+        grid-column: 1 / -1;
+        font-size: 18px;
+      }
+      .resource-arrow { font-size: 27px; }
     }
   </style>
 </head>
 <body>
   <main>
-    <header>
-      <h1>图书学习总目录</h1>
-      <p class="lead">集中发布本地图书学习成果：信息图图集、章节信息图、Anki 问答卡片集和学习单元台账。</p>
-    </header>
+    <h1 class="visually-hidden">图书学习总目录</h1>
 
-    <section class="quick" aria-label="快速入口">
-      <a class="tile" href="book-learning/图书学习单元台账.html">
-        <strong>学习单元台账</strong>
-        <span>查看章节、Part、卡片覆盖与处理结果。</span>
-      </a>
-      <a class="tile" href="infographics/books/交易的真相：从1000到1.83亿-图书信息图/交易的真相：从1000到1.83亿-图书信息图-catalog.html">
-        <strong>信息图图集</strong>
-        <span>进入全书总览和章节信息图目录。</span>
-      </a>
-      <a class="tile" href="anki/交易的真相：从1000到1.83亿-Anki学习卡片/交易的真相：从1000到1.83亿-Anki学习卡片-catalog.html">
-        <strong>Anki 问答卡片</strong>
-        <span>进入按章节组织的问答复习卡片。</span>
-      </a>
+    <section class="book-entry" aria-labelledby="sales-title">
+      <div class="book-info">
+        <p class="book-number">BOOK 01</p>
+        <h2 class="book-title" id="sales-title">《销售一号位》</h2>
+        <p class="book-author">郭庆</p>
+        <p class="book-summary">以销售一号位为核心角色，梳理使命、经营判断、组织能力、成长路径与典型误区。全书强调销售负责人不只是带队拿结果，还要把客户需求、业务战略与组织协同连接起来。</p>
+      </div>
+
+      <div class="book-resources" aria-label="销售一号位学习资源">
+        <section class="resource-group" aria-labelledby="sales-understand">
+          <h3 class="resource-label" id="sales-understand">理解全书</h3>
+          <a class="resource-link" href="infographics/books/销售一号位-图书信息图/销售一号位-图书信息图-catalog.html">
+            <span class="resource-name">图书信息图</span>
+            <p class="resource-description">保留原书章节与小节顺序，从使命到组织能力复盘经营判断与组织动作。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+        </section>
+
+        <section class="resource-group" aria-labelledby="sales-review">
+          <h3 class="resource-label" id="sales-review">巩固判断</h3>
+          <a class="resource-link" href="anki/销售一号位-Anki学习卡片/销售一号位-Anki学习卡片集.html">
+            <span class="resource-name">Anki 学习卡片集</span>
+            <p class="resource-description">64 张围绕使命、策略、协同与组织建设的主动回忆卡。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+        </section>
+
+        <section class="resource-group" aria-labelledby="sales-export">
+          <h3 class="resource-label" id="sales-export">编辑与导入</h3>
+          <a class="resource-link" href="anki/销售一号位-Anki导入编辑页.html">
+            <span class="resource-name">Anki 导入编辑页</span>
+            <p class="resource-description">逐卡调整问题、原文、提炼和正反例，再直接导出。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+          <a class="resource-link" href="anki/销售一号位-Anki学习卡片/销售一号位-Anki导入文件.tsv">
+            <span class="resource-name">Anki 导入文件</span>
+            <p class="resource-description">保留问答、原文和标签，可直接导入 Anki 复习。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+        </section>
+      </div>
     </section>
 
-    <section class="grid" aria-label="图书列表">
-      <article class="book">
-        <h2>交易的真相：从1000到1.83亿</h2>
-        <div class="links">
-          <a href="infographics/books/交易的真相：从1000到1.83亿-图书信息图/交易的真相：从1000到1.83亿-图书信息图-catalog.html">图书信息图目录</a>
-          <a href="infographics/books/交易的真相：从1000到1.83亿-图书信息图/交易的真相：从1000到1.83亿-全书总览-info-zh.html">全书总览信息图</a>
-          <a href="anki/交易的真相：从1000到1.83亿-Anki学习卡片/交易的真相：从1000到1.83亿-Anki学习卡片-catalog.html">Anki 学习卡片集</a>
-          <a href="anki/交易的真相：从1000到1.83亿-Anki导入编辑页.html">Anki 导入编辑页</a>
-        </div>
-      </article>
+    <section class="book-entry" aria-labelledby="trading-title">
+      <div class="book-info">
+        <p class="book-number">BOOK 02</p>
+        <h2 class="book-title" id="trading-title">《交易的真相：从1000到1.83亿》</h2>
+        <p class="book-author">极地之鹰</p>
+        <p class="book-summary">作者以从1000元起步到1.83亿元的交易经历为线索，复盘从迷信指标、趋势线与复杂系统，到建立简单可验证规则的过程。全书聚焦风险管理、系统测试与执行纪律，强调不预测、重验证。</p>
+      </div>
 
-      <article class="book">
-        <h2>销售一号位</h2>
-        <div class="links">
-          <a href="infographics/books/销售一号位-图书信息图/销售一号位-图书信息图-catalog.html">图书信息图目录</a>
-          <a href="infographics/books/销售一号位-图书信息图/销售一号位-全书总览-info-zh.html">全书总览信息图</a>
-          <a href="anki/销售一号位-Anki学习卡片/销售一号位-Anki学习卡片集.html">Anki 学习卡片集</a>
-          <a href="anki/销售一号位-Anki导入编辑页.html">Anki 导入编辑页</a>
-        </div>
-      </article>
+      <div class="book-resources" aria-label="交易的真相学习资源">
+        <section class="resource-group" aria-labelledby="trading-understand">
+          <h3 class="resource-label" id="trading-understand">理解全书</h3>
+          <a class="resource-link" href="infographics/books/交易的真相：从1000到1.83亿-图书信息图/交易的真相：从1000到1.83亿-图书信息图-catalog.html">
+            <span class="resource-name">图书信息图</span>
+            <p class="resource-description">从指标迷思到系统测试，13 个学习单元串起交易方法演化。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+        </section>
+
+        <section class="resource-group" aria-labelledby="trading-review">
+          <h3 class="resource-label" id="trading-review">巩固判断</h3>
+          <a class="resource-link" href="anki/交易的真相：从1000到1.83亿-Anki学习卡片/交易的真相：从1000到1.83亿-Anki学习卡片-catalog.html">
+            <span class="resource-name">Anki 学习卡片集</span>
+            <p class="resource-description">45 张围绕规则、证据、边界与执行的主动回忆卡。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+        </section>
+
+        <section class="resource-group" aria-labelledby="trading-export">
+          <h3 class="resource-label" id="trading-export">编辑与导入</h3>
+          <a class="resource-link" href="anki/交易的真相：从1000到1.83亿-Anki导入编辑页.html">
+            <span class="resource-name">Anki 导入编辑页</span>
+            <p class="resource-description">逐卡调整问题、原文、提炼和正反例，修改后可直接导出。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+          <a class="resource-link" href="anki/交易的真相：从1000到1.83亿-Anki学习卡片/交易的真相：从1000到1.83亿-Anki学习卡片-全部导入.tsv">
+            <span class="resource-name">Anki 导入文件</span>
+            <p class="resource-description">完整保留问答、原文与标签，导入 Anki 即可开始复习。</p>
+            <span class="resource-arrow" aria-hidden="true">&nearr;</span>
+          </a>
+        </section>
+      </div>
     </section>
-
-    <p class="meta">本页用于 GitHub Pages 发布。所有链接均指向同一发布目录内的本地静态文件。</p>
   </main>
 </body>
 </html>
