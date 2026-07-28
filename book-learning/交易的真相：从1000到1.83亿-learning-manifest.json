@@ -1,0 +1,195 @@
+{
+  "book_title": "交易的真相：从1000到1.83亿",
+  "author": "极地之鹰",
+  "source_epub": "/Users/jessper/Downloads/交易的真相：从1000到1.83亿.epub",
+  "chapter_model": "original-toc",
+  "sample_review": "approved",
+  "stages": {
+    "infographic_structure": "complete",
+    "book_overview": "complete",
+    "chapter_infographics": "complete",
+    "infographic_epub": "on_request_only",
+    "anki_cards": "complete",
+    "anki_editor": "complete",
+    "anki_tsv": "complete",
+    "learning_hub": "complete"
+  },
+  "resources": {
+    "infographic_catalog": "/Users/jessper/Documents/Codex/2026-07-28/skill-epub-1000-1-83-epub/outputs/infographics/books/交易的真相：从1000到1.83亿-图书信息图/交易的真相：从1000到1.83亿-图书信息图-catalog.html",
+    "book_overview": "/Users/jessper/Documents/Codex/2026-07-28/skill-epub-1000-1-83-epub/outputs/infographics/books/交易的真相：从1000到1.83亿-图书信息图/交易的真相：从1000到1.83亿-全书总览-info-zh.html",
+    "anki_catalog": "/Users/jessper/Documents/Codex/2026-07-28/skill-epub-1000-1-83-epub/outputs/anki/交易的真相：从1000到1.83亿-Anki学习卡片/交易的真相：从1000到1.83亿-Anki学习卡片-catalog.html",
+    "anki_editor": "/Users/jessper/Documents/Codex/2026-07-28/skill-epub-1000-1-83-epub/outputs/anki/交易的真相：从1000到1.83亿-Anki导入编辑页.html",
+    "anki_tsv": "/Users/jessper/Documents/Codex/2026-07-28/skill-epub-1000-1-83-epub/outputs/anki/交易的真相：从1000到1.83亿-Anki学习卡片/交易的真相：从1000到1.83亿-Anki学习卡片-全部导入.tsv"
+  },
+  "chapters": [
+    {
+      "original_locator": "前言",
+      "title": "前言",
+      "source_sections": [
+        "选择交易的动机",
+        "交易与赌徒的差异",
+        "个人性格与能力边界",
+        "长期投入的代价",
+        "保持冷静与自我对抗"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-前言-前言-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-前言-前言-Anki.html"
+    },
+    {
+      "original_locator": "第1章",
+      "title": "初入市场",
+      "source_sections": [
+        "知识与优势的差异",
+        "竞争者与教材的不同",
+        "少数盈利与多数亏损",
+        "权威观点的验证",
+        "学习如何转为假设"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第1章-初入市场-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第1章-初入市场-Anki.html"
+    },
+    {
+      "original_locator": "第2章",
+      "title": "支撑位的困惑",
+      "source_sections": [
+        "支撑压力的常见说法",
+        "理论补丁与逻辑问题",
+        "随机线实验",
+        "选择性相信",
+        "止损与主动退出"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第2章-支撑位的困惑-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第2章-支撑位的困惑-Anki.html"
+    },
+    {
+      "original_locator": "第3章",
+      "title": "趋势线的疑问",
+      "source_sections": [
+        "趋势线的主观性",
+        "模拟与实盘差异",
+        "六类系统错误",
+        "优化陷阱",
+        "逻辑基础的重要性"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第3章-趋势线的疑问-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第3章-趋势线的疑问-Anki.html"
+    },
+    {
+      "original_locator": "第4章",
+      "title": "随机指标和多周期共振",
+      "source_sections": [
+        "指标的吸引力",
+        "多周期叠加",
+        "复杂化与执行困难",
+        "主观过滤器",
+        "回到简单验证"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第4章-随机指标和多周期共振-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第4章-随机指标和多周期共振-Anki.html"
+    },
+    {
+      "original_locator": "第5章",
+      "title": "持仓迷局",
+      "source_sections": [
+        "成交量的有限解释",
+        "持仓规律的幻觉",
+        "价格行为与时间",
+        "方法移植风险",
+        "失效后的退出"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第5章-持仓迷局-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第5章-持仓迷局-Anki.html"
+    },
+    {
+      "original_locator": "第6章",
+      "title": "迷上了不下马交易",
+      "source_sections": [
+        "极简突破规则",
+        "短样本盈利",
+        "杠杆与风险放大",
+        "趋势追踪的边界",
+        "复盘与系统修正"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第6章-迷上了不下马交易-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第6章-迷上了不下马交易-Anki.html"
+    },
+    {
+      "original_locator": "第7章",
+      "title": "逆向思维的萌芽",
+      "source_sections": [
+        "大众心理与共同错过",
+        "顺势与逆势的关系",
+        "陷阱和假突破",
+        "少数派优势",
+        "逆向而非反向"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第7章-逆向思维的萌芽-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第7章-逆向思维的萌芽-Anki.html"
+    },
+    {
+      "original_locator": "第8章",
+      "title": "交易的真相",
+      "source_sections": [
+        "等比例盈亏",
+        "市场情绪",
+        "等待与不参与",
+        "动态止损",
+        "进出场的统一框架"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第8章-交易的真相-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第8章-交易的真相-Anki.html"
+    },
+    {
+      "original_locator": "第9章",
+      "title": "一套简单有效的交易系统：阶梯双K交易法则",
+      "source_sections": [
+        "逻辑简单",
+        "减少主观判断",
+        "明确进出场",
+        "仓位管理",
+        "阶梯双K规则"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第9章-一套简单有效的交易系统：阶梯双K交易法则-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第9章-一套简单有效的交易系统：阶梯双K交易法则-Anki.html"
+    },
+    {
+      "original_locator": "第10章",
+      "title": "为期半年的系统操作测试",
+      "source_sections": [
+        "三类值得做的单子",
+        "逐笔复核",
+        "连续样本",
+        "复利设定的边界",
+        "保留偏差"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第10章-为期半年的系统操作测试-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第10章-为期半年的系统操作测试-Anki.html"
+    },
+    {
+      "original_locator": "第11章",
+      "title": "K线交易之外",
+      "source_sections": [
+        "投机与投资",
+        "优势与淘汰",
+        "普通人缺乏优势",
+        "先机不是优势",
+        "风险前的自我审视"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-第11章-K线交易之外-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-第11章-K线交易之外-Anki.html"
+    },
+    {
+      "original_locator": "附录",
+      "title": "作者访谈",
+      "source_sections": [
+        "选择活跃品种",
+        "警惕假开悟",
+        "优势案例",
+        "回撤与策略",
+        "新手的资金与职业边界"
+      ],
+      "infographic_file": "交易的真相：从1000到1.83亿-附录-作者访谈-info-zh.html",
+      "anki_file": "交易的真相：从1000到1.83亿-附录-作者访谈-Anki.html"
+    }
+  ]
+}
